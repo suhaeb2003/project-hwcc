@@ -1,0 +1,69 @@
+html{
+          scroll-behavior: smooth;
+}
+section#home{
+          background: linear-gradient(to left ,#6808dd,#025FF1 );
+         
+}
+
+.color-bottom {
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          overflow: hidden;
+          line-height: 0;
+      }
+      
+      .color-bottom svg {
+          position: relative;
+          display: block;
+          width: calc(100% + 1.3px);
+          height: 50px;
+      }
+      
+      .color-bottom .shape-fill {
+          fill: #FFFFFF;
+      }
+#withdrow{
+    position: relative;
+    padding: 10rem 0rem;
+}
+.color-bottom-withdrow {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    transform: rotateX(
+180deg);
+margin-bottom: -1px;
+}
+.color-top-withdrow {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+/* COMPAINER SECTION DECORATION */
+#compainers{
+    background: linear-gradient(to left ,#6808dd, #025FF1);
+ 
+}
+.list li{
+    list-style: none;
+}
+
+.bi-bag-dash-fill{
+    background: linear-gradient(to left ,#6808dd,#025FF1);
+}
+#gellary{
+    background-color: whitesmoke;
+}
+.gallary-color {
+    transform: rotateX( 180deg);
+    margin-bottom: -1px;
+}
+#about{
+    background: linear-gradient(to left ,#6808dd,#025FF1);
+}
+footer{
+    background: linear-gradient(to left ,#6808dd,#025FF1);
+}
